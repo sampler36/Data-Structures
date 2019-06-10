@@ -11,7 +11,7 @@ class Queue:
   def enqueue(self, item):
     pass
     # add item
-    self.storage.insert(0, item)
+    return self.storage.insert(0, item)
   
   def dequeue(self):
     pass
