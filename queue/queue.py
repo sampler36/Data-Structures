@@ -6,16 +6,19 @@ class Queue:
     # insert 
     # new array if its full
     # linked list
-    self.storage = 
+    self.storage = []
 
   def enqueue(self, item):
     pass
     # add item
+    self.storage.insert(0, item)
   
   def dequeue(self):
     pass
     # remove item
+    return self.storage.pop()
 
   def len(self):
     pass
     # counter
+    return len(self.storage)
