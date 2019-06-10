@@ -3,13 +3,19 @@ class Queue:
     self.size = 0
     # what data structure should we
     # use to store queue elements?
+    # insert 
+    # new array if its full
+    # linked list
     self.storage = 
 
   def enqueue(self, item):
     pass
+    # add item
   
   def dequeue(self):
     pass
+    # remove item
 
   def len(self):
     pass
+    # counter
