@@ -26,7 +26,12 @@ class BinarySearchTree:
     pass
 
   def get_max(self):
-    pass
+        # set current valwhich is the init 
+      current = self
+        # loop down to find right most
+      while current.right is not None:
+            current = current.right
+      return current.value
 
   def for_each(self, cb):
     pass
