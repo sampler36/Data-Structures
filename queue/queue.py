@@ -10,7 +10,7 @@ class Queue:
     # insert 
     # new array if its full
     # create then import linked list 
-    self.storage = linked_list.LinkedList
+    self.storage = LinkedList
 
   def enqueue(self, item):
     pass
